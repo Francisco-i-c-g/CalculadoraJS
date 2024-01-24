@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+
+        <div class="grafica">
+
+            <h2>Calculadora</h2>
+        
+
+            <label for="numero1">Numero: </label>
+            <input type="number" class="numero1" id="numero1" placeholder="Ingreso numero">
+            
+
+            <label for="operacion">Operacion</label>
+            <input type="text" class="operacion" id="operacion" placeholder="+,-,*,/ ">
+        
+
+            <label for="numero2">Numero: </label>
+            <input type="number" class="numero2" id="numero2" placeholder="Ingreso numero">
+
+            <button class="btnResultado" onclick="operacion()">Resultado</button>
+
+            <label class="etiResul" for="resultado">Resultado: </label>
+            <textarea class="resultado" id="resultado"> </textarea>
+
+            <script src="codigo.js"></script>
+
+
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>
